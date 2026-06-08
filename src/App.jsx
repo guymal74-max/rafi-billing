@@ -4,12 +4,12 @@ import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, si
 import { getFirestore, collection, doc, getDocs, addDoc, updateDoc, deleteDoc, serverTimestamp } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDY9wtOA-SIW2tXrLq9tou35M7bxNPURxI",
-  authDomain: "rafi-flow-f23aa.firebaseapp.com",
-  projectId: "rafi-flow-f23aa",
-  storageBucket: "rafi-flow-f23aa.firebasestorage.app",
-  messagingSenderId: "343232398915",
-  appId: "1:343232398915:web:8ee854e4a26ab986abf6f6"
+    apiKey: "AIzaSyCJs6q4xrU-evPudWiQm3OgTXe3LZe3bsg",
+    authDomain: "rafi-billing-709af.firebaseapp.com",
+    projectId: "rafi-billing-709af",
+    storageBucket: "rafi-billing-709af.firebasestorage.app",
+    messagingSenderId: "285463487860",
+    appId: "1:285463487860:web:8ee0975db8f7ae79e6f821"
 };
 
 const app = initializeApp(firebaseConfig);
